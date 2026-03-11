@@ -1,0 +1,79 @@
+# Security - Never commit these files
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.yml
+secrets.yaml
+credentials.json
+config/secrets.*
+
+# API Keys and Tokens
+**/api-keys.txt
+**/tokens.txt
+**/*secret*
+**/*credential*
+**/*password*
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Operating System files
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Node modules (if any JavaScript tools are added)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if any Python scripts are added)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Personal notes (often contain sensitive info)
+NOTES.txt
+TODO-private.md
+scratch/
+personal/
+
+# Customer-specific content (should not be in public repo)
+customers/
+client-data/
+proprietary/
+internal-only/
+
+# CloudBees internal (should not be in public repo)
+cloudbees-internal/
+*-internal.md
