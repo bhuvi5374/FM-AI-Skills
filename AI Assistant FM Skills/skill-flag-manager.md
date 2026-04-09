@@ -129,8 +129,8 @@ A: [calls flag  tool] ✓ Flag d. It will no longer be evaluated. You can restor
 - "Rename flag X to Y"
 - "Change the rollout to 25%"
 
-**Archive / Delete:**
-- "Archive the dark-mode flag"
+**Delete:**
+- "Delete the dark-mode flag"
 - "Clean up old flags"
 - "Delete checkout-v2 — it's been fully rolled out"
 - "The flag is dead, remove it"
